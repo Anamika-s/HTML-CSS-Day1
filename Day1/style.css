@@ -1,0 +1,23 @@
+body{
+ font-family: 'Dancing Script', cursive;
+ font-size: medium;
+ padding: 10px;
+ margin: 100px;
+}
+
+#div1
+ {
+   background-color: red;
+ }
+ .class1
+ {
+   font-family:fantasy;
+    
+    font-size: xx-large;
+ }
+
+ div{
+  background-color: green;
+  height: 100px;
+  border: 1px solid red;
+}
