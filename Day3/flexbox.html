@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 540px;
+            width: 100%;
+            border: 2px solid red;
+            display: flex;
+            /* flex-direction: column; */
+
+            /* flex-direction: row-reverse; */
+            /* flex-wrap: wrap; */
+
+            /* flex-flow: column wrap; */
+            /* justify-content: space-between; */
+            justify-content: space-around;
+            justify-content: space-evenly;
+            /* align-items: center;
+            align-items: stretch;
+            align-items: flex-end; */
+
+        }
+
+        .item {
+            height: 100px;
+            width: 100px;
+            background-color: tomato;
+            border: 1px solid blue;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        #item1 {}
+
+        #item2 {
+            order: 10;
+        }
+
+        #item3 {}
+
+        #item4 {
+            order: 11;
+            flex-grow: 3;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- display property 
+    display  > block it will take entire space , div h1 p img img
+<div> 1 </div>
+inline 
+block-inline 
+flex  
+ flexbox > one dimensional layout method for laying items in rows or columns 
+-->
+    <div class="container">
+        <div class="item" id="item1"> 100 </div>
+        <div class="item" id="item2"> 200 </div>
+        <div class="item" id="item3"> 300 </div>
+        <div class="item" id="item4"> 400 </div>
+        <div class="item"> 500 </div>
+        <div class="item"> 400 </div>
+        <div class="item"> 500 </div>
+    </div>
+</body>
+
+</html>
